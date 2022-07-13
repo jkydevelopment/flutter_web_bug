@@ -1,0 +1,25 @@
+name: locator
+
+## To use the module just as an individual library
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  ## Dependency injection (https://pub.dev/packages/get_it)
+  get_it: ^7.2.0
+
+  # App modules
+
+  # account_data:
+  #   path: ../account_data
+  # account_domain:
+  #   path: ../account_domain
+  home:
+    path: ../home
