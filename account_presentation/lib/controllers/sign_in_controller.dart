@@ -5,7 +5,7 @@ import 'package:get_storage/get_storage.dart';
 import 'package:locator/locator_library.dart';
 
 // Comment this line to verify the breakpoint starts working. Remove the comment and they will stop working.
-// import 'package:router/router.dart';
+import 'package:router/router.dart';
 
 class SignInController extends GetxController {
   
